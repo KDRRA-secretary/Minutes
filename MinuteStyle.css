@@ -1,0 +1,82 @@
+html {
+	font-size: 9pt;
+  	width: 25rem;
+  	font: Georgia, serif;
+}
+
+body {
+	background-color: ivory;
+	text-align: justify;
+	hyphens: auto;
+	counter-reset: heading;
+}
+
+
+
+img.bird {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+h2 {
+	position: relative;
+	margin-top: -4.5rem;
+	color:firebrick;
+	text-align: left;
+	font-size: 175%;
+}
+
+h4 {
+	color:black;
+	text-align: left;
+}
+
+h5 {
+	color:firebrick;
+	font-size: 130%;
+	font-weight: normal;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+	text-align: left;
+}
+
+h5.item:before {
+	content: counter(heading)") ";
+	counter-increment: heading;
+}
+
+.center {
+	text-align: center;
+}
+
+.items {
+	font-size: 130%;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+	color: firebrick;
+}
+
+.movers {
+	position: relative;
+	margin-left: 10rem;
+	text-align: left;
+	hyphens: auto;
+	font-size: 90%;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+}
+
+.small {
+	font-size: 90%;
+}
+
+.motion {
+	font-size: 120%;
+	font-style: italic;
+	text-align: left;
+	hyphens: auto;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+}
